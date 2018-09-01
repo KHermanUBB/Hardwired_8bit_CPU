@@ -4,7 +4,10 @@ Eight bit von Neuman CPU inspired by the design https://minnie.tuhs.org/CompArch
 The vhdl folder contains all the sources to synthesise the circuit together with testbench (tb_cpu.vhd) file and program/data memory load (data.txt).  
 The Logisim folder contains Logisim files.
 
+The ise folder contains the proyect in ISE 14.7
+
 The ISim folder contains the dump from ISim (testbench results). It can be open in ISim program. 
+
 
 
 
