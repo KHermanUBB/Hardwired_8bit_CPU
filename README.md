@@ -13,7 +13,7 @@ To update the timing diagram goto menu Simulation->Restart and then Simulation->
 
 You can expand the signals from Main buses, control signals and Registers
 
-![Alt text](isim.png?raw=true "Title")
+![Alt text](ISIM.png?raw=true "Title")
 
 
 
