@@ -1,7 +1,8 @@
-# Hardwirred_8bit_CPU
-Eight bit von Neuman CPU inspired by the design https://minnie.tuhs.org/CompArch/Tutes/week03.html made in Logisim by Warren Toomey .
+# Hardwired 8 bit CPU made by UBB students
+Eight bit von Neuman CPU inspired by the design https://minnie.tuhs.org/CompArch/Tutes/week03.html made in Logisim by Warren Toomey.
 
 The vhdl folder contains all the sources to synthesise the circuit together with testbench file and program/date memory load.  
-The Logisim folder contains Logisim files 
+The Logisim folder contains Logisim files.
+
 The ISim folder contains the dump from ISim (testbench results).
 
