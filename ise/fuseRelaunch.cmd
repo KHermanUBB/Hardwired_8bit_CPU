@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "G:/FPGA/ISE_Proyects/HW_8bCPU/tb_cpu_isim_beh.exe" -prj "G:/FPGA/ISE_Proyects/HW_8bCPU/tb_cpu_beh.prj" "work.tb_cpu" 
