@@ -11,9 +11,11 @@ The ISim folder contains the dump from ISim (testbench results).
 It can be open in ISim program File->Open-> isim.wcfg
 To update the timing diagram goto menu Simulation->Restart and then Simulation->Run.
 
-You can expand the signals from Main buses, control signals and Registers
+You can expand the signals from Main buses, control signals and Registers.
 
-![Alt text](ISIM.png?raw=true "Title")
+The result should be similar to the following 
+
+![dummy text](ISIM.png?raw=true "CPU simulation")
 
 
 
