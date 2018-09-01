@@ -9,7 +9,7 @@ The ise folder contains the project in ISE 14.7.
 
 The ISim folder contains the dump from ISim (testbench results). 
 It can be open in ISim program File->Open-> isim.wcfg
-To update the timing diagram goto menu Simulation->Restart and then Simulation->Run.
+To update the timing diagram go to menu Simulation->Restart and then Simulation->Run.
 
 You can expand the signals from Main buses, control signals and Registers.
 
