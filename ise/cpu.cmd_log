@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/cpu.xst" -ofn "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/cpu.syr" 

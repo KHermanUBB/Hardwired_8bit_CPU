@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/cpu.vhd</arg>&quot; line <arg fmt="%d" index="2">155</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">ADDRMUX</arg>&gt; of block &lt;<arg fmt="%s" index="4">mux_4to1</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">cpu</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/cpu.vhd</arg>&quot; line <arg fmt="%d" index="2">156</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">REGMUX</arg>&gt; of block &lt;<arg fmt="%s" index="4">mux_4to1</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">cpu</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/cpu.vhd</arg>&quot; line <arg fmt="%d" index="2">157</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">ALU1</arg>&gt; of block &lt;<arg fmt="%s" index="4">ALU</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">cpu</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/cpu.vhd</arg>&quot; line <arg fmt="%d" index="2">158</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">RAM</arg>&gt; of block &lt;<arg fmt="%s" index="4">BRAM_Init</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">cpu</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/cpu.vhd</arg>&quot; line <arg fmt="%d" index="2">160</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">Ctrl</arg>&gt; of block &lt;<arg fmt="%s" index="4">ControlLogic</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">cpu</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/cpu.vhd</arg>&quot; line <arg fmt="%d" index="2">161</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">RegFile1</arg>&gt; of block &lt;<arg fmt="%s" index="4">RegFile</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">cpu</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/cpu.vhd</arg>&quot; line <arg fmt="%d" index="2">162</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">ir</arg>&gt; of block &lt;<arg fmt="%s" index="4">ff</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">cpu</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/cpu.vhd</arg>&quot; line <arg fmt="%d" index="2">163</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">immedate</arg>&gt; of block &lt;<arg fmt="%s" index="4">ff</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">cpu</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/cpu.vhd</arg>&quot; line <arg fmt="%d" index="2">164</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">PC1</arg>&gt; of block &lt;<arg fmt="%s" index="4">PCnt</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">cpu</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/cpu.vhd</arg>&quot; line <arg fmt="%s" index="2">160</arg>: Output port &lt;<arg fmt="%s" index="3">phase</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">Ctrl</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+</messages>
+

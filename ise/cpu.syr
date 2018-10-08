@@ -1,0 +1,337 @@
+Release 14.7 - xst P.20131013 (lin)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Reading design: cpu.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "cpu.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "cpu"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : cpu
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/mux.vhd" into library work
+Parsing entity <mux>.
+Parsing architecture <bhv> of entity <mux>.
+Parsing VHDL file "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/ff.vhd" into library work
+Parsing entity <ff>.
+Parsing architecture <Behavioral> of entity <ff>.
+Parsing VHDL file "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/demux.vhd" into library work
+Parsing entity <demux>.
+Parsing architecture <Behavioral> of entity <demux>.
+Parsing VHDL file "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/RegFile.vhd" into library work
+Parsing entity <RegFile>.
+Parsing architecture <Behavioral> of entity <regfile>.
+Parsing VHDL file "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/pc.vhd" into library work
+Parsing entity <PCnt>.
+Parsing architecture <behavior> of entity <pcnt>.
+Parsing VHDL file "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/mux4to1.vhd" into library work
+Parsing entity <mux_4to1>.
+Parsing architecture <bhv> of entity <mux_4to1>.
+Parsing VHDL file "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/ControlLogic.vhd" into library work
+Parsing entity <ControlLogic>.
+Parsing architecture <Behavioral> of entity <controllogic>.
+Parsing VHDL file "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/BRAM_Init.vhd" into library work
+Parsing entity <BRAM_Init>.
+Parsing architecture <Behavioral> of entity <bram_init>.
+Parsing VHDL file "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/ALU.vhd" into library work
+Parsing entity <ALU>.
+Parsing architecture <Behavioral> of entity <alu>.
+Parsing VHDL file "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/cpu.vhd" into library work
+Parsing entity <cpu>.
+Parsing architecture <Behavioral> of entity <cpu>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <cpu> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <mux_4to1> (architecture <bhv>) from library <work>.
+
+Elaborating entity <ALU> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <BRAM_Init> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <ControlLogic> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <RegFile> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <demux> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <ff> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <mux> (architecture <bhv>) from library <work>.
+
+Elaborating entity <PCnt> (architecture <behavior>) from library <work>.
+WARNING:Xst:2972 - "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/cpu.vhd" line 155. All outputs of instance <ADDRMUX> of block <mux_4to1> are unconnected in block <cpu>. Underlying logic will be removed.
+WARNING:Xst:2972 - "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/cpu.vhd" line 156. All outputs of instance <REGMUX> of block <mux_4to1> are unconnected in block <cpu>. Underlying logic will be removed.
+WARNING:Xst:2972 - "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/cpu.vhd" line 157. All outputs of instance <ALU1> of block <ALU> are unconnected in block <cpu>. Underlying logic will be removed.
+WARNING:Xst:2972 - "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/cpu.vhd" line 158. All outputs of instance <RAM> of block <BRAM_Init> are unconnected in block <cpu>. Underlying logic will be removed.
+WARNING:Xst:2972 - "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/cpu.vhd" line 160. All outputs of instance <Ctrl> of block <ControlLogic> are unconnected in block <cpu>. Underlying logic will be removed.
+WARNING:Xst:2972 - "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/cpu.vhd" line 161. All outputs of instance <RegFile1> of block <RegFile> are unconnected in block <cpu>. Underlying logic will be removed.
+WARNING:Xst:2972 - "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/cpu.vhd" line 162. All outputs of instance <ir> of block <ff> are unconnected in block <cpu>. Underlying logic will be removed.
+WARNING:Xst:2972 - "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/cpu.vhd" line 163. All outputs of instance <immedate> of block <ff> are unconnected in block <cpu>. Underlying logic will be removed.
+WARNING:Xst:2972 - "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/cpu.vhd" line 164. All outputs of instance <PC1> of block <PCnt> are unconnected in block <cpu>. Underlying logic will be removed.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <cpu>.
+    Related source file is "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/cpu.vhd".
+INFO:Xst:3210 - "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/cpu.vhd" line 160: Output port <phase> of the instance <Ctrl> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <cpu> synthesized.
+
+Synthesizing Unit <demux>.
+    Related source file is "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/demux.vhd".
+    Summary:
+	no macro.
+Unit <demux> synthesized.
+
+Synthesizing Unit <ff>.
+    Related source file is "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/ff.vhd".
+    Found 8-bit register for signal <q>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <ff> synthesized.
+
+Synthesizing Unit <mux>.
+    Related source file is "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/mux.vhd".
+    Summary:
+	no macro.
+Unit <mux> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <cpu> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block cpu, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : cpu.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-3 
+
+
+Slice Logic Utilization: 
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      0
+   Number with an unused Flip Flop:       0  out of      0         
+   Number with an unused LUT:             0  out of      0         
+   Number of fully used LUT-FF pairs:     0  out of      0         
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                           2
+ Number of bonded IOBs:                   0  out of    210     0%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 8.26 secs
+ 
+--> 
+
+
+Total memory usage is 206368 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    9 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

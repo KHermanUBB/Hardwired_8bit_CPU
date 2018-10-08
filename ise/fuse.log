@@ -1,0 +1,44 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/tb_cpu_isim_beh.exe -prj /home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/tb_cpu_beh.prj work.tb_cpu 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/mux.vhd" into library work
+Parsing VHDL file "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/ff.vhd" into library work
+Parsing VHDL file "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/demux.vhd" into library work
+Parsing VHDL file "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/RegFile.vhd" into library work
+Parsing VHDL file "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/pc.vhd" into library work
+Parsing VHDL file "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/mux4to1.vhd" into library work
+Parsing VHDL file "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/ControlLogic.vhd" into library work
+Parsing VHDL file "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/BRAM_Init.vhd" into library work
+Parsing VHDL file "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/ALU.vhd" into library work
+Parsing VHDL file "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/cpu.vhd" into library work
+Parsing VHDL file "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/tb_cpu.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 39960 KB
+Fuse CPU Usage: 1840 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling package numeric_std
+Compiling architecture bhv of entity mux_4to1 [mux_4to1_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity BRAM_Init [\BRAM_Init("data.txt")(1,8)\]
+Compiling architecture behavioral of entity ControlLogic [controllogic_default]
+Compiling architecture behavioral of entity demux [demux_default]
+Compiling architecture behavioral of entity ff [ff_default]
+Compiling architecture bhv of entity mux [mux_default]
+Compiling architecture behavioral of entity RegFile [regfile_default]
+Compiling architecture behavior of entity PCnt [pcnt_default]
+Compiling architecture behavioral of entity cpu [cpu_default]
+Compiling architecture behavior of entity tb_cpu
+Time Resolution for simulation is 1ps.
+Waiting for 4 sub-compilation(s) to finish...
+Compiled 27 VHDL Units
+Built simulation executable /home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/tb_cpu_isim_beh.exe
+Fuse Memory Usage: 98836 KB
+Fuse CPU Usage: 2020 ms
+GCC CPU Usage: 1140 ms
