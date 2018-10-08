@@ -35,8 +35,8 @@ muxproc:	process (pc,imval,sbus,dbus,addrsel)
 			  end if;
 		  end process;
 		  
---addr <= pc    when addrsel = "00" else 
---        imval when addrsel = "01" else 
---        sbus  when addrsel = "10" else	dbus;	  
+addr <= pc    when addrsel = "00" else 
+        imval when addrsel = "01" else 
+        sbus  when addrsel = "10" else	dbus;	  
 		  
 end bhv;
