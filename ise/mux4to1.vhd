@@ -22,21 +22,22 @@ end mux_4to1;
 architecture bhv of mux_4to1 is
 begin
 	
-muxproc:	process (pc,imval,sbus,dbus,addrsel)
-			begin
-			  if (addrsel = "00" )then
-					 addr <= pc;
-			  elsif (addrsel(0) ='0' and addrsel(1) = '1') then
-					addr <= imval;
-			  elsif (addrsel(0) ='1' and addrsel(1) = '0') then
-					addr <= sbus;
-			  else
-					addr <= dbus;
-			  end if;
-		  end process;
-		  
---addr <= pc    when addrsel = "00" else 
---        imval when addrsel = "01" else 
---        sbus  when addrsel = "10" else	dbus;	  
+--muxproc:	process (pc,imval,sbus,dbus,addrsel)
+--			begin
+--			  if (addrsel = "00" )then
+--					 addr <= pc;
+--			  elsif (addrsel(0) ='0' and addrsel(1) = '1') then
+--					addr <= imval;
+--			  elsif (addrsel(0) ='1' and addrsel(1) = '0') then
+--					addr <= sbus;
+--			  else
+--					addr <= dbus;
+--			  end if;
+--		  end process;
+--		  
+
+addr <= pc    when addrsel = "00" else 
+        imval when addrsel = "01" else 
+        sbus  when addrsel = "10" else	dbus;	  
 		  
 end bhv;

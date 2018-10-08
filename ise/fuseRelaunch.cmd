@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "secureip" -o "G:/FPGA/ISE_Proyects/HW_8bCPU/tb_cpu_isim_beh.exe" -prj "G:/FPGA/ISE_Proyects/HW_8bCPU/tb_cpu_beh.prj" "work.tb_cpu" 
+-intstyle "ise" -incremental -lib "secureip" -o "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/tb_cpu_isim_beh.exe" -prj "/home/icarosix/Clases/Arqui/cores/Hardwired_8bit_CPU/ise/tb_cpu_beh.prj" "work.tb_cpu" 
